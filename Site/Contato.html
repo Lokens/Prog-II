@@ -1,0 +1,135 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato</title>
+
+    
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<header>
+  
+</header>
+
+  
+<nav id="menu">
+
+   <nav style="background-color:lightgrey">
+  
+      <ul>
+        <a href="index.html"><li>Página inicial</li></a>
+        <a href="Curriculum.html"><li>Curriculum</li></a>
+        <a href="Temasdeinteresse.html"><li>Temas de Interesse</li></a>
+        <a href="Portifolio.html"><li>Protifolio</li></a>
+        <a href="Contato.html"> <li>Contato</li></a>  
+      </ul>
+    
+</nav> 
+
+
+<main>
+    <div align="center">
+        <h2> Entre em Contato</h2>
+    </div>
+
+
+    <form>
+      <div>
+        
+        <label for="nome"> Nome Completo:</label>  
+        <input type="text" name="nome" size="50px" id="nome" required>
+      </div>
+
+      <div>
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" size="50px" id="email">
+      </div>
+
+      <div>
+        <label for="fone">Telefone:</label>
+        <input type="fone" name="telefone" size="50px" id="fone" placeholder="XX xxxxx-xxxx">
+      </div>
+    
+      <fieldset>
+        <legend>Perfil:</legend>
+        <label><input type="radio" name="perfil" value="estudante" style="cursor: pointer;">Estudante</label>
+        <label><input type="radio" name="perfil" value="profissional" style="cursor: pointer;">Profissional de TI</label>
+        <label><input type="radio" name="perfil" value="outro" style="cursor: pointer;">Outro</label>
+      </fieldset>
+
+      
+      <fieldset>
+        <legend>Horário preferencial para contato:</legend>
+        
+        <div>
+          <label><input type="checkbox" name="manha">Manhã </label>
+        </div>
+        
+        <div>
+          <label><input type="checkbox" name="tarde">Tarde </label>
+        </div>
+        
+        <div>
+          <label><input type="checkbox" name="noite">Noite </label>
+        </div>
+        
+      </fieldset>
+      <!-- 
+        <div>
+          <label for="msg">Mensagem:</label>
+          <textarea name="mensagem" id="msg" placeholder="Sou um Lixo pq..."></textarea>
+        </div> -->
+        
+        <div>
+          <label for="assunto">Assunto</label>
+          <select name="assunto" id="assunto">
+            <option>Selecione</option>
+            <option>Dúvidas</option>
+            <option>Sugestões</option>
+            <option>Críticas</option>
+            <option>Elogios</option>
+          </select>
+        </div>
+
+      <fieldset id="mens">
+        
+        <label for="mens"></label><legend>Mensagem</legend></label>
+          <div>
+            <input type="text" rows="5" size="100">
+          </div>
+      </fieldset>
+      
+      <div>
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="limpar" value="Limpar">
+      </div>
+
+      <h3>Nossa localização</h3>
+      <details>
+        <summary>Ver endereço completo</summary>
+        <p>rua</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14204.184173399157!2d-52.71349349999999!3d-27.1233597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1566247793413!5m2!1spt-BR!2sbr" width="200" height="200" frameborder="0" style="border:2" allowfullscreen></iframe>
+      </details>
+
+
+    </form>
+
+
+
+</main>
+
+  
+  
+  
+<footer>  
+
+    <div align="botton"><p>Todos os direitos reservados &copy; &lt;  &nbsp; Mentira &nbsp; &gt; </p>
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+
+#menu ul a li {
+  padding: 10px 70px;
+  display: inline-block;
+
+  /* visual do link */
+  background-color:lightgray;
+  color: #333;
+  text-decoration: none;
+  /* border-bottom:3px solid darkgray; */
+  
+}
+
+#menu ul li a { display: inline; }
+
+
+/* quando bota o mouse em cima */
+#menu ul a li:hover {
+  background-color:lightgray;
+  /* color: brown; */
+  border-bottom:3px solid #EA0000;
+}
+
+/* #menu .container-fluid 
+{
+  width: 1308px;
+ } */
+
+/* 
+h1{
+  color: red;
+} */
+
+#cima h1 P{
+
+  
+}
+/* n sei se funciona 
+#header p{
+  color:springgreen;
+} */
+/* 
+#cima h1 p {
+
+  <div align="center">
+
+} */
+
+/* div:nth-child(2) > input:nth-child(1) { */
+#mens {
+  size 
+  height: 150px;
+   width: 800px;
+ 
+}
