@@ -2,11 +2,11 @@
 #menu ul a li {
   padding: 10px 70px;
   display: inline-block;
-
   /* visual do link */
   background-color:lightgray;
   color: #333;
   text-decoration: none;
+  
   /* border-bottom:3px solid darkgray; */
   
 }
@@ -21,35 +21,36 @@
   border-bottom:3px solid #EA0000;
 }
 
-/* #menu .container-fluid 
-{
-  width: 1308px;
- } */
 
-/* 
-h1{
-  color: red;
-} */
 
-#cima h1 P{
+#contatos form,div,fieldset{
 
-  
+  margin-top: 10px;
+
 }
-/* n sei se funciona 
-#header p{
-  color:springgreen;
-} */
-/* 
-#cima h1 p {
+#contatos h3 {
+  color: lightseagreen;
+ }
 
-  <div align="center">
+ #contatos div h2{
+   text-align:center;
+ }
 
-} */
-
-/* div:nth-child(2) > input:nth-child(1) { */
-#mens {
-  size 
+ #mens div input{
+  
   height: 150px;
-   width: 800px;
- 
+  width: 480px;
+
+}
+
+#mens fieldset{
+  size: 500px;
+
+}
+
+#foot div a img{
+
+  padding-top: 100px;
+  padding-right: 20px; 
+  width: 30px;
 }

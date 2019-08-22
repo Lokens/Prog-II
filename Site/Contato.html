@@ -30,35 +30,39 @@
 </nav> 
 
 
-<main>
-    <div align="center">
-        <h2> Entre em Contato</h2>
-    </div>
+<main id=contatos>
+   <div>
+     <h2> Entre em Contato</h2>
+   </div>
+    
 
 
     <form>
       <div>
         
         <label for="nome"> Nome Completo:</label>  
-        <input type="text" name="nome" size="50px" id="nome" required>
+        <input type="text" name="nome" size="40px" id="nome" required>
       </div>
 
       <div>
         <label for="email">E-Mail:</label>
-        <input type="email" name="email" size="50px" id="email">
+        <input type="email" name="email" size="35px" id="email">
+        
       </div>
 
       <div>
         <label for="fone">Telefone:</label>
-        <input type="fone" name="telefone" size="50px" id="fone" placeholder="XX xxxxx-xxxx">
+        <input type="fone" name="telefone" size="10px" id="fone" placeholder="XX xxxxx-xxxx">
       </div>
-    
+      
+  
+
       <fieldset>
         <legend>Perfil:</legend>
         <label><input type="radio" name="perfil" value="estudante" style="cursor: pointer;">Estudante</label>
         <label><input type="radio" name="perfil" value="profissional" style="cursor: pointer;">Profissional de TI</label>
         <label><input type="radio" name="perfil" value="outro" style="cursor: pointer;">Outro</label>
-      </fieldset>
+      </fieldset >
 
       
       <fieldset>
@@ -93,12 +97,19 @@
             <option>Elogios</option>
           </select>
         </div>
+        
+        <!-- <div>
+          <label for="mens"> Mensagem <br>
+            <textarea name="mensag"> </textarea>
+            </label>
+        </div>     
+         -->
 
       <fieldset id="mens">
         
         <label for="mens"></label><legend>Mensagem</legend></label>
           <div>
-            <input type="text" rows="5" size="100">
+            <input type="text" >
           </div>
       </fieldset>
       
@@ -110,22 +121,25 @@
       <h3>Nossa localização</h3>
       <details>
         <summary>Ver endereço completo</summary>
-        <p>rua</p>
+        <p>Casa do caixa prego</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14204.184173399157!2d-52.71349349999999!3d-27.1233597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1566247793413!5m2!1spt-BR!2sbr" width="200" height="200" frameborder="0" style="border:2" allowfullscreen></iframe>
       </details>
 
 
     </form>
-
-
-
 </main>
 
   
   
   
-<footer>  
+<footer id="foot">  
 
+    <div>
+      <a href="https://github.com/Lokens" target="_blank"> <img src="Imagens/git.png"> </a> 
+      <a href="https://steamcommunity.com/id/lokens/" target="_blank"> <img src="Imagens/steam.png"> </a> 
+      <a href="https://www.facebook.com/matheus.slama" target="_blank"> <img src="Imagens/face.png"> </a>
+      <a href="https://www.instagram.com/matheus.slama/?hl=pt-br" target="_blank"> <img src="Imagens/insta.jpeg"> </a>
+    </div>
     <div align="botton"><p>Todos os direitos reservados &copy; &lt;  &nbsp; Mentira &nbsp; &gt; </p>
 
   </footer>
