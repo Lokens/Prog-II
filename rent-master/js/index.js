@@ -18,3 +18,7 @@ document.body.onresize = function(){
 	else
 		menu.style.display = "none"; // oculta
 };
+
+document.body.getElementsByClassName("1item","numerin1"){
+	
+}

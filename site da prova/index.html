@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Pizzaria Slama</title>
+
+	<link rel="stylesheet" type="text/css" href="css/pg.css">
+	
+</head>
+
+<header class="inicio">
+	<h1>Pizzaria Slama </h1>
+	<br>
+
+	<nav class="menu">    
+		<ul>
+			<li><a href="#">Pagina Inicial</a></li>
+			<li><a href="#">Pedidos</a></li>
+			<li><a href="#">Contate-nos</a></li>
+		</ul>
+	</nav>
+	
+</header>
+
+<body>
+
+	<div class="main">
+
+		<fieldset>
+			<legend>Indentificação do Cliente</legend>
+			
+			<label>Nome completo:
+				<input type="text" size="50" autofocus>
+			</label>
+			
+			<br>
+
+			<label>Email:
+				<input type="text" size="50" placeholder="fulano@domínio" >
+			</label>
+			
+			<br>
+			
+			<label>Telefone:
+				<input type="tel" placeholder="(xx)xxxxx-xxxx" >
+			</label>
+			<br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Pedido</legend>
+
+			<label id="tamanho">Tamanho 
+				<br>
+				<input type="radio" checked onchange="tot()" name="pequeno">Pequena (R$ 30,0)
+			</label>
+			 <br>
+			 <label>
+					<input type="radio" name="tamanho" onchange="tot()">Média (R$ 40,00)
+			</label>
+			<br>
+			<label>
+					<input type="radio" name="tamanho" onchange="tot()" >Grande (R$ 60,00)
+			</label>
+			<br>
+			<label>
+					<input type="radio" name="tamanho" onchange="tot()">Família (R$ 80,00)
+			</label>
+
+			<br>
+			<br>
+
+			<label>Sabor1
+				<br>
+				<select name="sabores1">
+					<option selected>Ecolha um sabor</option>
+					<option >Calabresa</option>
+					<option > 4 Queijos</option>
+					<option >Vegetariana</option>
+				</select>
+			</label>
+
+			<br>
+
+			<label>Sabor2
+					<br>
+						<select  name="sabores2">
+						<option selected>Ecolha um sabor</option>
+						<option >Calabresa</option>
+						<option > 4 Queijos</option>
+						<option >Vegetariana</option>
+						</select>
+			</label>
+
+			<br>
+
+			<label >Sabor3
+					<br>
+						<select name="sabores3">
+							<option selected>Ecolha um sabor</option>
+							<option >Calabresa</option>
+							<option > 4 Queijos</option>
+							<option >Vegetariana</option>
+							
+						</select>
+			</label>
+
+			<br>
+			<br>
+
+			<label >Adicionais
+					<br>
+					<input type="checkbox" onclick="tot()">Borda (+ R$ 5,00)
+					<br>
+					<input type="checkbox" onclick="tot()">Refrigerante 2L (+ R$ 7,00)
+			</label>
+
+			<br>
+			<br>
+
+			<label >Data e Hora
+					<br>
+					Data: <input type="date">
+					<br>
+					Hora: <input type="time">
+			</label>
+
+			<br>
+
+			<label >Observações: 
+					<textarea cols="30" rows="5"></textarea>
+			</label>
+			
+			<br>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Valor Total:</legend>
+				<div id="total">30,00</div>
+		</fieldset>
+
+		<button>Confirmar Pedido</button>
+		<input type="reset" value="Limpar Campos">
+
+
+
+	</div>
+
+
+		<aside class="col">
+			<h2>Aqui a Pizza é de esplodir!!!</h2>
+			<br>
+		<image class="imagem" src="img/pizza.jpg" alt="Piza no formato de coração"></image>	
+				
+		</aside>
+
+	<div id="duvidas"></div>
+	<p>
+		Em caso de dúvidas, entre em contato pelo número 0800-0000.
+	</p>
+
+	
+	<footer>
+		<p>Email: esseemailnaoexiste@blablabla.com</p>
+		<p>Tel: (21) 0800-0000</p>
+		<p>Localizado na Rua no meio do nada, Chapecó-SC</p>
+	</footer>
+	<script src="js/pg.js"></script>
+
+</body>
